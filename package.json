@@ -1,0 +1,8 @@
+{
+    "name": "skin-utilities",
+    "version": "1.0.0",
+    "title": "皮肤编辑实用工具",
+    "description": "一些与皮肤相关的编辑工具集合，全部来自于 GitHub，感谢这些工具的原作者",
+    "author": "GPlane",
+    "namespace": "GPlane\\SkinUtilities"
+}
