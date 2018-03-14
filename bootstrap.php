@@ -7,7 +7,7 @@ use Illuminate\Contracts\Events\Dispatcher;
 return function (Request $request, Dispatcher $events) {
     if ($request->is('skinlib/show/*')) {
         $events->listen(App\Events\RenderingFooter::class, function ($event) {
-            $event->addContent('<script src="'.plugin_assets('skin-utilities', 'assets/common/js/buttons.js').'"></script>');
+            $event->addContent('<script src="'.plugin_assets('skin-utilities', 'assets/common/js/buttons.js').'" defer></script>');
         });
     }
 
